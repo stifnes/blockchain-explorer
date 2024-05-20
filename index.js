@@ -6,7 +6,7 @@ const net = require("net");
 const client = new net.Socket();
 const crypto = require("crypto");
 
-const { parseBlockMessage, displayBlockInfo } = require('./parsing.js');
+const { parseBlockMessage, displayBlockInfo } = require('./data-parsing.js');
 
 const network = { magic: "d9b4bef9", port: 8333, ip: '34.126.120.20' }
 
